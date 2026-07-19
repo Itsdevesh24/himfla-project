@@ -1,6 +1,7 @@
 import { Outlet, Link, createRootRoute } from "@tanstack/react-router";
-import { HeadContent, Scripts } from "@tanstack/react-start";
-//import { CartProvider } from "@/context/CartContext";
+//import { HeadContent, Scripts } from "@tanstack/react-start";
+//import { CartProvider } from "@/context/CartContext";import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
+// import { CartProvider } from "@/context/CartContext";
 import appCss from "../styles.css?url";
 
 function NotFoundComponent() {
