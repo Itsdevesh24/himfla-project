@@ -1,4 +1,4 @@
 {
-    "framework": "other",
+    "framework": "tanstack-start-lovable",
     "buildCommand": "npm run build"
 }
