@@ -62,16 +62,20 @@ export function ProductShowcase() {
                 <p className="mb-1 text-xs font-medium uppercase tracking-wider text-accent">
                   {p.category}
                 </p>
-                <h3 className="text-base font-semibold leading-tight line-clamp-2 min-h-[2.5rem]">{p.name}</h3>
+                <h3 className="text-base font-semibold leading-tight line-clamp-2 min-h-10">{p.name}</h3>
                 <div className="mt-4 flex items-center justify-between">
                   <span className="text-xl font-bold text-primary">{p.price}</span>
                   <Button
-                   size="sm"
-                   className="btn-premium-hover"
-                   onClick={() => addToCart(p)}
-           >
-             Add to Cart
-             </Button>
+  size="sm"
+  className="btn-premium-hover"
+  onClick={() => {
+    alert("Button Clicked");
+    console.log("Button Clicked");
+    addToCart(p);
+  }}
+>
+  Add to Cart
+</Button>
                 </div>
               </div>
             </article>
